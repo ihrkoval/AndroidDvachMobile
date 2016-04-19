@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#353131">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="@string/name"
+            android:id="@+id/Name"
+            android:layout_marginTop="0dp"
+            android:padding="1dp"
+            android:textColor="#98a8fb" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="@string/email"
+            android:id="@+id/email"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/OP"
+            android:layout_toEndOf="@+id/OP"
+            android:padding="1dp"
+            android:textColor="#b10404" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="@string/op"
+            android:id="@+id/OP"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/Name"
+            android:layout_toEndOf="@+id/Name"
+            android:padding="1dp"
+            android:textColor="#144c04" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="@string/date"
+            android:id="@+id/date"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/email"
+            android:layout_toEndOf="@+id/email"
+            android:padding="1dp"
+            android:textColor="#525252" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="@string/postnum"
+            android:id="@+id/postnum"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/date"
+            android:layout_toEndOf="@+id/date"
+            android:padding="1dp"
+            android:textColor="#f18107" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/subject"
+        android:text="asdf"
+        android:layout_below="@+id/Name"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:padding="2dp"
+        android:textStyle="bold"
+        android:textColor="#545ff7" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Coment"
+        android:id="@+id/cooment"
+        android:layout_below="@+id/imageView2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:padding="5dp"
+        android:textColor="#d9ddff" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView2"
+        android:contentDescription="@string/imageView2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/subject"
+        android:padding="2dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView3"
+        android:layout_toRightOf="@+id/imageView2"
+        android:layout_below="@+id/subject"
+        android:padding="2dp" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView4"
+        android:layout_toRightOf="@+id/imageView3"
+        android:layout_below="@+id/subject"
+        android:padding="2dp" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView5"
+        android:layout_toRightOf="@+id/imageView4"
+        android:layout_below="@+id/subject"
+        android:padding="2dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="files"
+        android:id="@+id/filesCountTV"
+        android:textColor="#858585"
+        android:padding="5dp"
+        android:layout_below="@+id/cooment"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="posts"
+        android:id="@+id/postCountTV"
+        android:textColor="#858585"
+        android:padding="5dp"
+        android:layout_alignTop="@+id/filesCountTV"
+        android:layout_toLeftOf="@+id/filesCountTV"
+        android:layout_toStartOf="@+id/filesCountTV" />
+
+
+</RelativeLayout>

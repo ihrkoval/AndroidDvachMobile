@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:weightSum="1"
+    android:divider="@android:drawable/divider_horizontal_dim_dark"
+    android:focusable="false"
+
+    android:gravity="fill_vertical"
+    android:background="@android:drawable/alert_light_frame">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:layout_width="101dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/namePostform"
+            android:inputType="text"
+            android:text="@string/namePost"
+            android:background="@android:drawable/alert_dark_frame"
+            android:textColor="#84c0ff" />
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:ems="10"
+            android:id="@+id/emailEditTextPost"
+            android:background="@android:drawable/alert_dark_frame"
+            android:text="@string/email_post"
+            android:textColor="#a0a0a0" />
+    </LinearLayout>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText2"
+        android:background="@android:drawable/alert_dark_frame"
+        android:text="Тема"
+        android:textColor="#706e6e" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:inputType="textMultiLine"
+        android:ems="10"
+        android:id="@+id/editText"
+        android:background="@android:drawable/alert_dark_frame"
+        android:textColor="#a6a6a6"
+        android:textStyle="normal"
+        android:textColorHighlight="#ff7700"
+        android:padding="15dp"
+        android:layout_weight="1.10" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageViewCaptcha"
+            android:contentDescription="@string/CaptchaImage" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText3"
+            android:inputType="text" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:showDividers="middle">
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="66dp"
+            android:layout_height="wrap_content"
+            android:text="@string/Otvet"
+            android:id="@+id/OtvetBTN"
+            android:padding="5dp" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonFileChuoser"
+            android:background="@android:drawable/ic_menu_gallery"
+            android:padding="5dp" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ж"
+            android:id="@+id/buttonJir"
+            android:textStyle="bold" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="K"
+            android:id="@+id/button"
+            android:textStyle="italic" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="п"
+            android:id="@+id/buttonP"
+            android:textStyle="normal" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="з"
+            android:id="@+id/buttonZ"
+            style="?android:attr/buttonStyleSmall" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonSpoiler" />
+
+    </LinearLayout>
+
+</LinearLayout>

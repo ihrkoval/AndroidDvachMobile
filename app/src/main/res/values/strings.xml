@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">DvachMobile2</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="parent">PARRENT</string>
+    <string name="action_settings">Settings</string>
+    <string name="name">Name</string>
+    <string name="date">date</string>
+    <string name="email">Email</string>
+    <string name="postnum">postnum</string>
+    <string name="op"></string>
+    <string name="dateOpPost">date</string>
+    <string name="imageView2">imageView2</string>
+    <string name="title_activity_image_view">ImageViewActivity</string>
+    <string name="imageView6">imageView6</string>
+    <string name="title_activity_post_form">PostForm</string>
+    <string name="postName">Name</string>
+    <string name="emailPost">email</string>
+    <string name="opPost">OP</string>
+    <string name="uniquePoster">unPosters</string>
+    <string name="dateTV">date</string>
+    <string name="subjectTV">Subject</string>
+    <string name="postFile2">postFile2</string>
+    <string name="postFile1">postFile1</string>
+    <string name="postFile3">postFile3</string>
+    <string name="postFile4">postFile4</string>
+    <string name="comentTv">Comment</string>
+    <string name="numTV">num</string>
+    <string name="OtvetBTN"><![CDATA[>>]]></string>
+    <string name="Sent">Отправить</string>
+    <string name="Otvet">Ответ</string>
+    <string name="namePost">Имя</string>
+    <string name="email_post">email</string>
+    <string name="CaptchaImage">CaptchaImage</string>
+</resources>

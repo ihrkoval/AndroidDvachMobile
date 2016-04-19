@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#353131">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/postName"
+        android:id="@+id/postName"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="0dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="0dp"
+        android:padding="2dp"
+        android:textColor="#5b76a5" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/emailPost"
+        android:id="@+id/emailPostTextView"
+        android:layout_alignBottom="@+id/postName"
+        android:layout_toRightOf="@+id/postName"
+        android:layout_toEndOf="@+id/postName"
+        android:padding="2dp"
+        android:textColor="#f60a0a" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:id="@+id/opPostTV"
+        android:layout_alignBottom="@+id/emailPostTextView"
+        android:layout_toRightOf="@+id/emailPostTextView"
+        android:layout_toEndOf="@+id/emailPostTextView"
+        android:padding="2dp"
+        android:textColor="#00a503" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:id="@+id/unique"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/opPostTV"
+        android:layout_toEndOf="@+id/opPostTV"
+        android:padding="2dp"
+        android:textColor="#02a60a" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/subjectTV"
+        android:id="@+id/subjectTV"
+        android:layout_below="@+id/postName"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:padding="2dp"
+        android:textColor="#166de8"
+        android:textStyle="bold"
+        android:typeface="serif" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/postFile1"
+        android:layout_below="@+id/subjectTV"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:contentDescription="@string/postFile1"
+        android:padding="3dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/postFile2"
+        android:layout_below="@+id/subjectTV"
+        android:layout_toRightOf="@+id/postFile1"
+        android:layout_toEndOf="@+id/postFile1"
+        android:contentDescription="@string/postFile2"
+        android:padding="3dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/postFile3"
+        android:layout_alignTop="@+id/postFile2"
+        android:layout_toRightOf="@+id/postFile2"
+        android:layout_toEndOf="@+id/postFile2"
+        android:contentDescription="@string/postFile3"
+        android:padding="3dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/postFile4"
+        android:layout_alignTop="@+id/postFile3"
+        android:layout_toRightOf="@+id/postFile3"
+        android:layout_toEndOf="@+id/postFile3"
+        android:contentDescription="@string/postFile4"
+        android:padding="3dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/comentTv"
+
+        android:id="@+id/comentTV"
+        android:layout_below="@+id/postFile1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:padding="5dp"
+        android:textColor="#a8c6fa" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/numTV"
+        android:id="@+id/numTV"
+        android:padding="3dp"
+        android:textColor="#ff9900"
+        android:singleLine="false"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/unique"
+        android:layout_toEndOf="@+id/unique" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/dateTV"
+        android:id="@+id/dateTV"
+        android:padding="2dp"
+        android:textColor="#626060"
+        android:layout_below="@+id/comentTV"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+  <!--  <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/postFormContainer"
+        android:layout_below="@+id/dateTV"
+        >
+
+
+    </RelativeLayout>-->
+
+</RelativeLayout>
